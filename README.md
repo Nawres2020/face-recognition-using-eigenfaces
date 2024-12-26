@@ -1,4 +1,4 @@
-# Face Recognition Using Eigenfaces
+![image](https://github.com/user-attachments/assets/f487cb2a-89c6-4eee-897b-d27d4202ba29)# Face Recognition Using Eigenfaces
 
 This repository implements face recognition using the Eigenface technique. Eigenfaces leverage Principal Component Analysis (PCA) to represent human faces as a set of basis images, reducing dimensionality while preserving key features for recognition. The approach is effective for identifying individuals from images with high accuracy.
 
@@ -8,7 +8,7 @@ This repository implements face recognition using the Eigenface technique. Eigen
 
 - The goal is to identify individuals from images by comparing the features (eigenfaces) of input faces with those of known individuals.
 
-### 2. Workflow
+###  Workflow
 
 #### a. Import Necessary Libraries
 Libraries such as `numpy`, `matplotlib`, and `scikit-learn` are required for this project . 
@@ -34,6 +34,13 @@ Normalize or standardize pixel values to improve PCA's performance.
 
 ## Confusion Matrix
 A confusion matrix evaluates the classification model's performance by comparing predicted and actual values:
+
+##Explain the classification report: The model achieved an accuracy of 0.99, meaning 99% of the total predictions were correct.
+Metrics
+•	Precision: The ratio of correctly predicted positive observations to the total predicted positives. A precision of 1.00 means all predictions for that class were correct.
+•	Recall (Sensitivity): The ratio of correctly predicted positive observations to all observations in the actual class. It reflects the model's ability to identify all actual positives. A recall of 1.00 means the model identified all instances of that class correctly.
+•	F1-Score: The harmonic mean of precision and recall, providing a balance between the two. An F1-score of 1.00 indicates perfect precision and recall.
+•	Support: The number of actual occurrences of each class in the dataset. It shows how many instances there are of each class.
 
 
 ## Key Features of the Implementation
