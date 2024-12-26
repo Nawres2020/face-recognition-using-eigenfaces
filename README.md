@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f487cb2a-89c6-4eee-897b-d27d4202ba29)# Face Recognition Using Eigenfaces
+# Face Recognition Using Eigenfaces
 
 This repository implements face recognition using the Eigenface technique. Eigenfaces leverage Principal Component Analysis (PCA) to represent human faces as a set of basis images, reducing dimensionality while preserving key features for recognition. The approach is effective for identifying individuals from images with high accuracy.
 
